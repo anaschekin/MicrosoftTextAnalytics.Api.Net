@@ -6,6 +6,7 @@ You can see the specification on: https://westus.dev.cognitive.microsoft.com/doc
 
 Here is a quick sample how to use it:
 
+```
 var endpoint = "";
 var apiKey = "{Your api key here}";
 
@@ -19,3 +20,6 @@ documentList.Add(new DocumentInput {
 });
 
 var result = await manager.GetLanguages(documentList);
+```
+
+It currently impements all methods available in the API 2.0.
